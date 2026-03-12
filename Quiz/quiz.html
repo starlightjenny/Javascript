@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="css/styles.css">		
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<h2>◖ Quiz Results ◗</h2>
+		<p id="result"></p>
+
+	<script src="js/quiz.js"></script>
+	<script>
+		var finalScore = quiz();
+		document.getElementById('result').textContent = 'You scored ' + finalScore + ' points!';
+	</script>
+
+	</main>
+
+</body>
+</html>
